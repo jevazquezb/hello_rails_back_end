@@ -66,7 +66,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-  rails s -p 3001
+    rails s -p 3001
 
 Go to [http://localhost:3001/api/v1/greetings](http://localhost:3001/api/v1/greetings) and make sure the messages are visible. Refresh the page to see the different messages.
 
