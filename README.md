@@ -29,17 +29,19 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-    1. bundle install
-    2. rails db:create
-    3. rails db:migrate
+    bundle install
+    rails db:create
+    rails db:migrate
 
-### Feed
+### Feed the database
 
-**Note:** Repeat step 5 to add several messages to the API (change the message).
-
-    4. rails c
-    5. Greeting.create(message: 'Hello, world!')
-    6. exit
+    rails c
+    Greeting.create(message: 'Hello, world!')
+    Greeting.create(message: '¡Hola mundo!')
+    Greeting.create(message: 'Bonjour le monde!')
+    Greeting.create(message: 'Hallo Welt!')
+    Greeting.create(message: 'Ciao mondo!')
+    exit
 
 ### Usage
 
@@ -49,7 +51,8 @@ Go to [http://localhost:3001/api/v1/greetings](http://localhost:3001/api/v1/gree
 
 ### React Front-end
 
-Go to [https://github.com/jevazquezb/hello_react_front_end](https://github.com/jevazquezb/hello_react_front_end).
+- [Repository](https://github.com/jevazquezb/hello_react_front_end).
+- [Pull request](https://github.com/jevazquezb/hello_react_front_end/pull/1).
 
 ### Done!
 
